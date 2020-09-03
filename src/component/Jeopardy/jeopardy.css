@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 400px;
+  height: 400px;
+  border: 2px solid green;
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+}
+#grid-cell {
+  border: 1px solid blue;
+  margin: 1px;
+  background-color: blueviolet;
+}
+#grid-cell:hover {
+  border: 1px solid orange;
+}
